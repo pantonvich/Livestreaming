@@ -21,6 +21,9 @@ byte btnArr[] = {dPinLapMode,A3,A4,A5,9,10,11};
 //unsigned long btnLastPjonMillis = 0;
 
 
+#define MAX_ATTEMPTS 3
+#define PACKET_MAX_LENGTH 10
+
 #define PJON_NETWORK_PIN  12
 #define PJON_ME 1
 
@@ -58,6 +61,9 @@ unsigned long ledCt=0;
 unsigned long intervalSendStatus = 10000;
 int laps = 0;
 
+#define btnCamDebounce 100
+#define btnLapDebounce 400
+ 
 // Attach a new CmdMessenger object to the default Serial port
 CmdMessenger cmdMessenger = CmdMessenger(Serial);
 
@@ -219,6 +225,7 @@ void loop()
   static byte btnPressed = 0;
   static byte btnPressedLast = 0;
   static unsigned long sendBtnMillis = 0;
+  bool sendLap = false;
   
   pjonNetwork.receive(1500);
   
@@ -226,7 +233,7 @@ void loop()
   cmdMessenger.feedinSerialData();
   xBeeLapStatus();
   blinkLed();
-
+  
    if (m < millis() ) {
      int lastLap = laps;
      uint8_t button = tmReadButtons();
@@ -238,9 +245,10 @@ void loop()
      }
     
     int setLap=1;
+    
     if(!digitalRead(dPinLapMode)) setLap += 9; //set to 1 or 10
-    if( !digitalRead(dPinLapUp)) laps += setLap;
-    else if (!digitalRead(dPinLapDown)) laps -= setLap;
+    if( !digitalRead(dPinLapUp)) {laps += setLap; sendLap=true;}
+    else if (!digitalRead(dPinLapDown)) {laps -= setLap; sendLap=true;}
   
     if (laps < -1 ) laps = -1;
   //  0,1,2,3,4,5,6,
@@ -257,18 +265,18 @@ void loop()
     }
          
     if (lastLap != laps) { 
-      m = millis()+300;
+      m = millis()+btnLapDebounce;
       sendLapMillis = m;
     }
     
     if (btnPressedLast != btnPressed) {
-      m = millis()+300;
+      m = millis()+btnCamDebounce;
       sendBtnMillis=m;
       btnPressedLast = btnPressed;
     }
   }
    
-  if (sendLapMillis < millis() ) {
+  if (sendLapMillis < millis() || sendLap) {
     sendLaps();
     sendLapMillis = -1;
   }
@@ -471,6 +479,7 @@ static uint8_t seg7HexCode[] =
 0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x6F,0x09,0x36,0x58,0x48,0x4C,0x53,
 0x5F,0x77,0x7C,0x58,0x5E,0x79,0x71,0x3D,0x74,0x10,0x1E,0x76,0x38,0x37,0x54,0x5C,
 0x73,0x67,0x50,0x6D,0x78,0x1C,0x3E,0x2A,0x49,0x6E,0x5B,0x32,0x64,0x0E,0x23,0x08};
+
 
   uint8_t msg[mCt];
   for (int x = 0; x < mCt; x++) {

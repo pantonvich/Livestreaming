@@ -1,0 +1,9 @@
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger\bin\Debug\CommandMessenger.dll
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger\bin\Debug\CommandMessenger.pdb
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger\obj\Debug\CommandMessenger.csprojResolveAssemblyReference.cache
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger\obj\Debug\CommandMessenger.dll
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger\obj\Debug\CommandMessenger.pdb
+C:\personal\SketchBook\CmdMessenger\CommandMessenger\bin\Debug\CommandMessenger.dll
+C:\personal\SketchBook\CmdMessenger\CommandMessenger\bin\Debug\CommandMessenger.pdb
+C:\personal\SketchBook\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.dll
+C:\personal\SketchBook\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.pdb

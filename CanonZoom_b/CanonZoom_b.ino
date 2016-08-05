@@ -25,6 +25,9 @@
 
 #include <PJON.h>
 
+#define MAX_ATTEMPTS 3
+#define PACKET_MAX_LENGTH 10
+
 #define PJON_SEND_STATUS 30000
 #define PJON_NETWORK_PIN  12
 #define PJON_1 1  //don't skip as we need to set - need to rethink this
@@ -32,9 +35,9 @@
 #define PJON_3 3
 #define PJON_4 4
 
-#define PJON_ME PJON_2
+uint8_t PJON_ME = PJON_2;
 
-PJON<SoftwareBitBang> pjonNetwork(PJON_ME);
+PJON<SoftwareBitBang> pjonNetwork(255);
 
 #ifdef DEBUG
   #define DEBUG_PRINT(str0,str1)    \
@@ -73,19 +76,22 @@ const int BlinkLed            = 13;
 
 void setup() 
 { 
-  // set pin for blink LED
- pinModeFast(BlinkLed, OUTPUT);
+  //set pins to know what pjon id to use
+  pinMode(2,INPUT_PULLUP);
+  pinMode(3,INPUT_PULLUP);
   
+  // set pin for blink LED
+  pinModeFast(BlinkLed, OUTPUT);
+
 #ifdef DEBUG
   Serial.begin(115200);
-  DEBUG_PRINT(F("zoom"),"b");
-  DEBUG_PRINT(F("PJON_NETWORK_PIN"),PJON_NETWORK_PIN);
-  DEBUG_PRINT(F("PJON_ME"),PJON_ME);
-#endif
+  DEBUG_PRINT(F("CanonZoom"),"b");
+#endif  
+
 
 #ifdef HDMI_SOURCE
-   DEBUG_PRINT(F("HDMI_SOURCE PIN"),HDMI_SWITCH_DPIN);
    pinModeFast(HDMI_SWITCH_DPIN, OUTPUT);
+   DEBUG_PRINT(F("HDMI_SOURCE PIN"),HDMI_SWITCH_DPIN);
 #endif
 
 #ifdef SERVO_PIN
@@ -97,11 +103,20 @@ void setup()
   DEBUG_PRINT(F("SERVO_PIN IN"),dPinIn);
   DEBUG_PRINT(F("SERVO_PIN Out"),dPinOut);
 #endif
+
+  if(!digitalRead(2)) PJON_ME = PJON_3;
+  if(!digitalRead(3)) PJON_ME = PJON_4;
+  
+  pjonNetwork.set_id(PJON_ME);
   
   pjonNetwork.set_pin(PJON_NETWORK_PIN);
   pjonNetwork.begin();
   //pjonNetwork.set_error(pjon_error_handler);
   pjonNetwork.set_receiver(pjon_receiver_function);
+
+  DEBUG_PRINT(F("PJON_NETWORK_PIN"),PJON_NETWORK_PIN);
+  DEBUG_PRINT(F("PJON_ME"),PJON_ME);
+
 } 
 
 unsigned long ms;

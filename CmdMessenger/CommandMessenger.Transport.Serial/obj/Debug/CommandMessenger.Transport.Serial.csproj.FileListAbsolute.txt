@@ -1,0 +1,14 @@
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger.Transport.Serial\bin\Debug\CommandMessenger.Transport.Serial.dll
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger.Transport.Serial\bin\Debug\CommandMessenger.Transport.Serial.pdb
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger.Transport.Serial\bin\Debug\CommandMessenger.dll
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger.Transport.Serial\bin\Debug\CommandMessenger.pdb
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger.Transport.Serial\obj\Debug\CommandMessenger.Transport.Serial.csprojResolveAssemblyReference.cache
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger.Transport.Serial\obj\Debug\CommandMessenger.Transport.Serial.dll
+C:\personal\arduino-1.6.4\libraries\CmdMessenger\extras\CSharp\CommandMessenger.Transport.Serial\obj\Debug\CommandMessenger.Transport.Serial.pdb
+C:\personal\SketchBook\CmdMessenger\CommandMessenger.Transport.Serial\bin\Debug\CommandMessenger.Transport.Serial.dll
+C:\personal\SketchBook\CmdMessenger\CommandMessenger.Transport.Serial\bin\Debug\CommandMessenger.Transport.Serial.pdb
+C:\personal\SketchBook\CmdMessenger\CommandMessenger.Transport.Serial\bin\Debug\CommandMessenger.dll
+C:\personal\SketchBook\CmdMessenger\CommandMessenger.Transport.Serial\bin\Debug\CommandMessenger.pdb
+C:\personal\SketchBook\CmdMessenger\CommandMessenger.Transport.Serial\obj\Debug\CommandMessenger.Transport.Serial.csprojResolveAssemblyReference.cache
+C:\personal\SketchBook\CmdMessenger\CommandMessenger.Transport.Serial\obj\Debug\CommandMessenger.Transport.Serial.dll
+C:\personal\SketchBook\CmdMessenger\CommandMessenger.Transport.Serial\obj\Debug\CommandMessenger.Transport.Serial.pdb
