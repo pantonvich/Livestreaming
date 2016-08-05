@@ -37,3 +37,16 @@ C:\obs-dev\Livestream\Livestreaming\CmdMessenger\ArduinoController\obj\Debug\Ard
 C:\obs-dev\Livestream\Livestreaming\CmdMessenger\ArduinoController\obj\Debug\6-ArduinoController.csproj.GenerateResource.Cache
 C:\obs-dev\Livestream\Livestreaming\CmdMessenger\ArduinoController\obj\Debug\ArduinoController.exe
 C:\obs-dev\Livestream\Livestreaming\CmdMessenger\ArduinoController\obj\Debug\ArduinoController.pdb
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\bin\Debug\ArduinoController.exe.config
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\obj\Debug\ArduinoController.exe
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\obj\Debug\ArduinoController.pdb
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\bin\Debug\ArduinoController.exe
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\bin\Debug\ArduinoController.pdb
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\bin\Debug\CommandMessenger.dll
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\bin\Debug\CommandMessenger.Transport.Serial.dll
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\bin\Debug\CommandMessenger.Transport.Serial.pdb
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\bin\Debug\CommandMessenger.pdb
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\obj\Debug\6-ArduinoController.csprojResolveAssemblyReference.cache
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\obj\Debug\ArduinoController.ControllerForm.resources
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\obj\Debug\ArduinoController.Properties.Resources.resources
+C:\obs-dev\Livestream\CmdMessenger\ArduinoController\obj\Debug\6-ArduinoController.csproj.GenerateResource.Cache
