@@ -128,7 +128,7 @@
             // 
             // btnCam01in
             // 
-            this.btnCam01in.Location = new System.Drawing.Point(24, 19);
+            this.btnCam01in.Location = new System.Drawing.Point(98, 19);
             this.btnCam01in.Name = "btnCam01in";
             this.btnCam01in.Size = new System.Drawing.Size(31, 23);
             this.btnCam01in.TabIndex = 4;
@@ -150,7 +150,7 @@
             // 
             // btnCam01out
             // 
-            this.btnCam01out.Location = new System.Drawing.Point(99, 19);
+            this.btnCam01out.Location = new System.Drawing.Point(24, 19);
             this.btnCam01out.Name = "btnCam01out";
             this.btnCam01out.Size = new System.Drawing.Size(31, 23);
             this.btnCam01out.TabIndex = 6;
@@ -269,18 +269,19 @@
             // btn01Out
             // 
             this.btn01Out.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn01Out.Location = new System.Drawing.Point(550, 19);
+            this.btn01Out.Location = new System.Drawing.Point(519, 19);
             this.btn01Out.Name = "btn01Out";
             this.btn01Out.Size = new System.Drawing.Size(25, 23);
             this.btn01Out.TabIndex = 33;
             this.btn01Out.Tag = "1";
-            this.btn01Out.Text = "4";
+            this.btn01Out.Text = "16";
             this.btn01Out.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn01Out.TextChanged += new System.EventHandler(this.btn01Out_TextChanged);
             // 
             // btn01In
             // 
             this.btn01In.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn01In.Location = new System.Drawing.Point(519, 19);
+            this.btn01In.Location = new System.Drawing.Point(560, 19);
             this.btn01In.Name = "btn01In";
             this.btn01In.Size = new System.Drawing.Size(25, 23);
             this.btn01In.TabIndex = 32;
@@ -348,18 +349,18 @@
             // btn02Out
             // 
             this.btn02Out.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn02Out.Location = new System.Drawing.Point(550, 22);
+            this.btn02Out.Location = new System.Drawing.Point(519, 22);
             this.btn02Out.Name = "btn02Out";
             this.btn02Out.Size = new System.Drawing.Size(25, 23);
             this.btn02Out.TabIndex = 35;
             this.btn02Out.Tag = "1";
-            this.btn02Out.Text = "16";
+            this.btn02Out.Text = "32";
             this.btn02Out.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btn02In
             // 
             this.btn02In.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn02In.Location = new System.Drawing.Point(519, 22);
+            this.btn02In.Location = new System.Drawing.Point(560, 22);
             this.btn02In.Name = "btn02In";
             this.btn02In.Size = new System.Drawing.Size(25, 23);
             this.btn02In.TabIndex = 34;
@@ -405,7 +406,7 @@
             // 
             // btnCam02in
             // 
-            this.btnCam02in.Location = new System.Drawing.Point(24, 22);
+            this.btnCam02in.Location = new System.Drawing.Point(98, 22);
             this.btnCam02in.Name = "btnCam02in";
             this.btnCam02in.Size = new System.Drawing.Size(31, 23);
             this.btnCam02in.TabIndex = 4;
@@ -453,7 +454,7 @@
             // 
             // btnCam02out
             // 
-            this.btnCam02out.Location = new System.Drawing.Point(99, 22);
+            this.btnCam02out.Location = new System.Drawing.Point(24, 22);
             this.btnCam02out.Name = "btnCam02out";
             this.btnCam02out.Size = new System.Drawing.Size(31, 23);
             this.btnCam02out.TabIndex = 6;
@@ -506,7 +507,7 @@
             // btn03Out
             // 
             this.btn03Out.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn03Out.Location = new System.Drawing.Point(550, 22);
+            this.btn03Out.Location = new System.Drawing.Point(519, 22);
             this.btn03Out.Name = "btn03Out";
             this.btn03Out.Size = new System.Drawing.Size(25, 23);
             this.btn03Out.TabIndex = 37;
@@ -517,12 +518,12 @@
             // btn03In
             // 
             this.btn03In.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn03In.Location = new System.Drawing.Point(519, 22);
+            this.btn03In.Location = new System.Drawing.Point(560, 22);
             this.btn03In.Name = "btn03In";
             this.btn03In.Size = new System.Drawing.Size(25, 23);
             this.btn03In.TabIndex = 36;
             this.btn03In.Tag = "1";
-            this.btn03In.Text = "32";
+            this.btn03In.Text = "4";
             this.btn03In.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt3Id
@@ -548,7 +549,7 @@
             // 
             // btnCam03in
             // 
-            this.btnCam03in.Location = new System.Drawing.Point(24, 22);
+            this.btnCam03in.Location = new System.Drawing.Point(98, 22);
             this.btnCam03in.Name = "btnCam03in";
             this.btnCam03in.Size = new System.Drawing.Size(31, 23);
             this.btnCam03in.TabIndex = 4;
@@ -596,7 +597,7 @@
             // 
             // btnCam03out
             // 
-            this.btnCam03out.Location = new System.Drawing.Point(99, 22);
+            this.btnCam03out.Location = new System.Drawing.Point(24, 22);
             this.btnCam03out.Name = "btnCam03out";
             this.btnCam03out.Size = new System.Drawing.Size(31, 23);
             this.btnCam03out.TabIndex = 6;

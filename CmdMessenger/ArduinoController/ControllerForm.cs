@@ -319,6 +319,11 @@ namespace ArduinoController
             File.WriteAllText(eventTitlePathFile.Text,eventTitle.Text);
         }
 
+        private void btn01Out_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }
