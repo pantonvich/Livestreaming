@@ -7,3 +7,13 @@ C:\personal\SketchBook\CmdMessenger\CommandMessenger\bin\Debug\CommandMessenger.
 C:\personal\SketchBook\CmdMessenger\CommandMessenger\bin\Debug\CommandMessenger.pdb
 C:\personal\SketchBook\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.dll
 C:\personal\SketchBook\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.pdb
+C:\Users\pantonvi\OneDrive\Livestream\CmdMessenger\CommandMessenger\bin\Debug\CommandMessenger.dll
+C:\Users\pantonvi\OneDrive\Livestream\CmdMessenger\CommandMessenger\bin\Debug\CommandMessenger.pdb
+C:\Users\pantonvi\OneDrive\Livestream\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.csprojResolveAssemblyReference.cache
+C:\Users\pantonvi\OneDrive\Livestream\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.dll
+C:\Users\pantonvi\OneDrive\Livestream\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.pdb
+C:\Users\pantonvich\OneDrive\Livestream\CmdMessenger\CommandMessenger\bin\Debug\CommandMessenger.dll
+C:\Users\pantonvich\OneDrive\Livestream\CmdMessenger\CommandMessenger\bin\Debug\CommandMessenger.pdb
+C:\Users\pantonvich\OneDrive\Livestream\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.csprojResolveAssemblyReference.cache
+C:\Users\pantonvich\OneDrive\Livestream\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.dll
+C:\Users\pantonvich\OneDrive\Livestream\CmdMessenger\CommandMessenger\obj\Debug\CommandMessenger.pdb

@@ -33,12 +33,45 @@
             this.radioButton1_1 = new System.Windows.Forms.RadioButton();
             this.radioButton1_2 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnPos1_S = new System.Windows.Forms.Button();
+            this.lblPan01 = new System.Windows.Forms.Label();
+            this.lblTlt01 = new System.Windows.Forms.Label();
+            this.btnPos1_1 = new System.Windows.Forms.Button();
+            this.txtPos1_1p = new System.Windows.Forms.TextBox();
+            this.txtPos1_1t = new System.Windows.Forms.TextBox();
+            this.btnPos1_2 = new System.Windows.Forms.Button();
+            this.txtPos1_2p = new System.Windows.Forms.TextBox();
+            this.txtPos1_2t = new System.Windows.Forms.TextBox();
+            this.btnPos1_3 = new System.Windows.Forms.Button();
+            this.txtPos1_3p = new System.Windows.Forms.TextBox();
+            this.txtPos1_3t = new System.Windows.Forms.TextBox();
             this.btn01Out = new System.Windows.Forms.TextBox();
             this.btn01In = new System.Windows.Forms.TextBox();
             this.bufCt01 = new System.Windows.Forms.Label();
             this.txt1Id = new System.Windows.Forms.TextBox();
             this.lblCam01 = new System.Windows.Forms.Label();
+            this.btnPos2_1 = new System.Windows.Forms.Button();
+            this.txtPos2_1p = new System.Windows.Forms.TextBox();
+            this.txtPos2_1t = new System.Windows.Forms.TextBox();
+            this.btnPos2_2 = new System.Windows.Forms.Button();
+            this.txtPos2_2p = new System.Windows.Forms.TextBox();
+            this.txtPos2_2t = new System.Windows.Forms.TextBox();
+            this.btnPos2_3 = new System.Windows.Forms.Button();
+            this.txtPos2_3p = new System.Windows.Forms.TextBox();
+            this.txtPos2_3t = new System.Windows.Forms.TextBox();
+            this.btnPos3_1 = new System.Windows.Forms.Button();
+            this.txtPos3_1p = new System.Windows.Forms.TextBox();
+            this.txtPos3_1t = new System.Windows.Forms.TextBox();
+            this.btnPos3_2 = new System.Windows.Forms.Button();
+            this.txtPos3_2p = new System.Windows.Forms.TextBox();
+            this.txtPos3_2t = new System.Windows.Forms.TextBox();
+            this.btnPos3_3 = new System.Windows.Forms.Button();
+            this.txtPos3_3p = new System.Windows.Forms.TextBox();
+            this.txtPos3_3t = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnPos2_S = new System.Windows.Forms.Button();
+            this.lblPan02 = new System.Windows.Forms.Label();
+            this.lblTlt02 = new System.Windows.Forms.Label();
             this.btn02Out = new System.Windows.Forms.TextBox();
             this.btn02In = new System.Windows.Forms.TextBox();
             this.bufCt02 = new System.Windows.Forms.Label();
@@ -52,6 +85,9 @@
             this.cam2seconds = new System.Windows.Forms.TextBox();
             this.cam2set = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnPos3_S = new System.Windows.Forms.Button();
+            this.lblPan03 = new System.Windows.Forms.Label();
+            this.lblTlt03 = new System.Windows.Forms.Label();
             this.btn03Out = new System.Windows.Forms.TextBox();
             this.btn03In = new System.Windows.Forms.TextBox();
             this.txt3Id = new System.Windows.Forms.TextBox();
@@ -66,16 +102,26 @@
             this.bufCt03 = new System.Windows.Forms.Label();
             this.bufCt = new System.Windows.Forms.Label();
             this.txtBoxLaps = new System.Windows.Forms.TextBox();
-            this.txtLogPath = new System.Windows.Forms.TextBox();
+            this.txtPath = new System.Windows.Forms.TextBox();
             this.chkManualOverride = new System.Windows.Forms.CheckBox();
             this.chkUp = new System.Windows.Forms.CheckBox();
-            this.eventTitlesPathFile = new System.Windows.Forms.TextBox();
-            this.eventTitle = new System.Windows.Forms.TextBox();
-            this.eventTitleLineItem = new System.Windows.Forms.TextBox();
-            this.eventTitleLinePrev = new System.Windows.Forms.Button();
-            this.eventTitleLineNext = new System.Windows.Forms.Button();
-            this.eventTitleLineSave = new System.Windows.Forms.Button();
-            this.eventTitlePathFile = new System.Windows.Forms.TextBox();
+            this.txtEventNamesFile = new System.Windows.Forms.TextBox();
+            this.txtEventName = new System.Windows.Forms.TextBox();
+            this.txtEventLineItem = new System.Windows.Forms.TextBox();
+            this.btnEventPrevItem = new System.Windows.Forms.Button();
+            this.btnEventNextItem = new System.Windows.Forms.Button();
+            this.btnEventNameSave = new System.Windows.Forms.Button();
+            this.txtEventNameFile = new System.Windows.Forms.TextBox();
+            this.btnWebSocket = new System.Windows.Forms.Button();
+            this.txtWebScocketIp = new System.Windows.Forms.TextBox();
+            this.txtLapsToGoFile = new System.Windows.Forms.TextBox();
+            this.txtLogFile = new System.Windows.Forms.TextBox();
+            this.txtTitleSponsorFile = new System.Windows.Forms.TextBox();
+            this.txtTitleSponsor = new System.Windows.Forms.TextBox();
+            this.btnTitleSponsorSave = new System.Windows.Forms.Button();
+            this.chkUpdateLap = new System.Windows.Forms.CheckBox();
+            this.chkShowResults = new System.Windows.Forms.CheckBox();
+            this.txtCat = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.LedFrequencyLabelTrackBar)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -183,9 +229,9 @@
             // 
             this.txtLaps.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtLaps.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLaps.Location = new System.Drawing.Point(476, 3);
+            this.txtLaps.Location = new System.Drawing.Point(566, 4);
             this.txtLaps.Name = "txtLaps";
-            this.txtLaps.Size = new System.Drawing.Size(146, 56);
+            this.txtLaps.Size = new System.Drawing.Size(105, 56);
             this.txtLaps.TabIndex = 17;
             this.txtLaps.Text = "-1";
             this.txtLaps.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -193,7 +239,7 @@
             // 
             // txtComPort
             // 
-            this.txtComPort.Location = new System.Drawing.Point(288, 8);
+            this.txtComPort.Location = new System.Drawing.Point(269, 8);
             this.txtComPort.Name = "txtComPort";
             this.txtComPort.Size = new System.Drawing.Size(48, 20);
             this.txtComPort.TabIndex = 19;
@@ -201,9 +247,9 @@
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(342, 6);
+            this.btnConnect.Location = new System.Drawing.Point(323, 6);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(75, 23);
+            this.btnConnect.Size = new System.Drawing.Size(58, 23);
             this.btnConnect.TabIndex = 20;
             this.btnConnect.Tag = "1";
             this.btnConnect.Text = "Connect";
@@ -247,6 +293,18 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnPos1_S);
+            this.groupBox1.Controls.Add(this.lblPan01);
+            this.groupBox1.Controls.Add(this.lblTlt01);
+            this.groupBox1.Controls.Add(this.btnPos1_1);
+            this.groupBox1.Controls.Add(this.txtPos1_1p);
+            this.groupBox1.Controls.Add(this.txtPos1_1t);
+            this.groupBox1.Controls.Add(this.btnPos1_2);
+            this.groupBox1.Controls.Add(this.txtPos1_2p);
+            this.groupBox1.Controls.Add(this.txtPos1_2t);
+            this.groupBox1.Controls.Add(this.btnPos1_3);
+            this.groupBox1.Controls.Add(this.txtPos1_3p);
+            this.groupBox1.Controls.Add(this.txtPos1_3t);
             this.groupBox1.Controls.Add(this.btn01Out);
             this.groupBox1.Controls.Add(this.btn01In);
             this.groupBox1.Controls.Add(this.bufCt01);
@@ -261,10 +319,140 @@
             this.groupBox1.Controls.Add(this.cam1set);
             this.groupBox1.Location = new System.Drawing.Point(161, 72);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(678, 56);
+            this.groupBox1.Size = new System.Drawing.Size(678, 85);
             this.groupBox1.TabIndex = 26;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Turn One";
+            // 
+            // btnPos1_S
+            // 
+            this.btnPos1_S.Location = new System.Drawing.Point(24, 56);
+            this.btnPos1_S.Name = "btnPos1_S";
+            this.btnPos1_S.Size = new System.Drawing.Size(31, 23);
+            this.btnPos1_S.TabIndex = 44;
+            this.btnPos1_S.Tag = "1_S";
+            this.btnPos1_S.Text = "Stp";
+            this.btnPos1_S.UseVisualStyleBackColor = true;
+            this.btnPos1_S.Click += new System.EventHandler(this.btnStp_Click);
+            // 
+            // lblPan01
+            // 
+            this.lblPan01.AutoSize = true;
+            this.lblPan01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPan01.Location = new System.Drawing.Point(487, 57);
+            this.lblPan01.Name = "lblPan01";
+            this.lblPan01.Size = new System.Drawing.Size(37, 20);
+            this.lblPan01.TabIndex = 38;
+            this.lblPan01.Text = "Pan";
+            // 
+            // lblTlt01
+            // 
+            this.lblTlt01.AutoSize = true;
+            this.lblTlt01.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTlt01.Location = new System.Drawing.Point(534, 57);
+            this.lblTlt01.Name = "lblTlt01";
+            this.lblTlt01.Size = new System.Drawing.Size(26, 20);
+            this.lblTlt01.TabIndex = 37;
+            this.lblTlt01.Text = "Tlt";
+            // 
+            // btnPos1_1
+            // 
+            this.btnPos1_1.Location = new System.Drawing.Point(61, 56);
+            this.btnPos1_1.Name = "btnPos1_1";
+            this.btnPos1_1.Size = new System.Drawing.Size(31, 23);
+            this.btnPos1_1.TabIndex = 34;
+            this.btnPos1_1.Tag = "1_1";
+            this.btnPos1_1.Text = "P1";
+            this.btnPos1_1.UseVisualStyleBackColor = true;
+            this.btnPos1_1.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos1_1p
+            // 
+            this.txtPos1_1p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos1_1p.Location = new System.Drawing.Point(100, 57);
+            this.txtPos1_1p.Name = "txtPos1_1p";
+            this.txtPos1_1p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos1_1p.TabIndex = 36;
+            this.txtPos1_1p.Tag = "";
+            this.txtPos1_1p.Text = "999";
+            this.txtPos1_1p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos1_1t
+            // 
+            this.txtPos1_1t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos1_1t.Location = new System.Drawing.Point(143, 57);
+            this.txtPos1_1t.Name = "txtPos1_1t";
+            this.txtPos1_1t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos1_1t.TabIndex = 35;
+            this.txtPos1_1t.Tag = "";
+            this.txtPos1_1t.Text = "999";
+            this.txtPos1_1t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnPos1_2
+            // 
+            this.btnPos1_2.Location = new System.Drawing.Point(200, 56);
+            this.btnPos1_2.Name = "btnPos1_2";
+            this.btnPos1_2.Size = new System.Drawing.Size(31, 23);
+            this.btnPos1_2.TabIndex = 34;
+            this.btnPos1_2.Tag = "1_2";
+            this.btnPos1_2.Text = "P2";
+            this.btnPos1_2.UseVisualStyleBackColor = true;
+            this.btnPos1_2.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos1_2p
+            // 
+            this.txtPos1_2p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos1_2p.Location = new System.Drawing.Point(239, 56);
+            this.txtPos1_2p.Name = "txtPos1_2p";
+            this.txtPos1_2p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos1_2p.TabIndex = 36;
+            this.txtPos1_2p.Tag = "";
+            this.txtPos1_2p.Text = "999";
+            this.txtPos1_2p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos1_2t
+            // 
+            this.txtPos1_2t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos1_2t.Location = new System.Drawing.Point(282, 56);
+            this.txtPos1_2t.Name = "txtPos1_2t";
+            this.txtPos1_2t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos1_2t.TabIndex = 35;
+            this.txtPos1_2t.Tag = "";
+            this.txtPos1_2t.Text = "999";
+            this.txtPos1_2t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnPos1_3
+            // 
+            this.btnPos1_3.Location = new System.Drawing.Point(342, 56);
+            this.btnPos1_3.Name = "btnPos1_3";
+            this.btnPos1_3.Size = new System.Drawing.Size(31, 23);
+            this.btnPos1_3.TabIndex = 34;
+            this.btnPos1_3.Tag = "1_3";
+            this.btnPos1_3.Text = "P3";
+            this.btnPos1_3.UseVisualStyleBackColor = true;
+            this.btnPos1_3.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos1_3p
+            // 
+            this.txtPos1_3p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos1_3p.Location = new System.Drawing.Point(379, 56);
+            this.txtPos1_3p.Name = "txtPos1_3p";
+            this.txtPos1_3p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos1_3p.TabIndex = 36;
+            this.txtPos1_3p.Tag = "";
+            this.txtPos1_3p.Text = "999";
+            this.txtPos1_3p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos1_3t
+            // 
+            this.txtPos1_3t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos1_3t.Location = new System.Drawing.Point(422, 56);
+            this.txtPos1_3t.Name = "txtPos1_3t";
+            this.txtPos1_3t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos1_3t.TabIndex = 35;
+            this.txtPos1_3t.Tag = "";
+            this.txtPos1_3t.Text = "999";
+            this.txtPos1_3t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btn01Out
             // 
@@ -276,7 +464,6 @@
             this.btn01Out.Tag = "1";
             this.btn01Out.Text = "16";
             this.btn01Out.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn01Out.TextChanged += new System.EventHandler(this.btn01Out_TextChanged);
             // 
             // btn01In
             // 
@@ -325,8 +512,218 @@
             this.lblCam01.TabIndex = 26;
             this.lblCam01.Text = "None";
             // 
+            // btnPos2_1
+            // 
+            this.btnPos2_1.Location = new System.Drawing.Point(61, 56);
+            this.btnPos2_1.Name = "btnPos2_1";
+            this.btnPos2_1.Size = new System.Drawing.Size(31, 23);
+            this.btnPos2_1.TabIndex = 34;
+            this.btnPos2_1.Tag = "2_1";
+            this.btnPos2_1.Text = "P1";
+            this.btnPos2_1.UseVisualStyleBackColor = true;
+            this.btnPos2_1.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos2_1p
+            // 
+            this.txtPos2_1p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos2_1p.Location = new System.Drawing.Point(100, 56);
+            this.txtPos2_1p.Name = "txtPos2_1p";
+            this.txtPos2_1p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos2_1p.TabIndex = 36;
+            this.txtPos2_1p.Tag = "";
+            this.txtPos2_1p.Text = "999";
+            this.txtPos2_1p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos2_1t
+            // 
+            this.txtPos2_1t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos2_1t.Location = new System.Drawing.Point(143, 56);
+            this.txtPos2_1t.Name = "txtPos2_1t";
+            this.txtPos2_1t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos2_1t.TabIndex = 35;
+            this.txtPos2_1t.Tag = "";
+            this.txtPos2_1t.Text = "999";
+            this.txtPos2_1t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnPos2_2
+            // 
+            this.btnPos2_2.Location = new System.Drawing.Point(200, 56);
+            this.btnPos2_2.Name = "btnPos2_2";
+            this.btnPos2_2.Size = new System.Drawing.Size(31, 23);
+            this.btnPos2_2.TabIndex = 34;
+            this.btnPos2_2.Tag = "2_2";
+            this.btnPos2_2.Text = "P2";
+            this.btnPos2_2.UseVisualStyleBackColor = true;
+            this.btnPos2_2.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos2_2p
+            // 
+            this.txtPos2_2p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos2_2p.Location = new System.Drawing.Point(239, 56);
+            this.txtPos2_2p.Name = "txtPos2_2p";
+            this.txtPos2_2p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos2_2p.TabIndex = 36;
+            this.txtPos2_2p.Tag = "";
+            this.txtPos2_2p.Text = "999";
+            this.txtPos2_2p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos2_2t
+            // 
+            this.txtPos2_2t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos2_2t.Location = new System.Drawing.Point(282, 56);
+            this.txtPos2_2t.Name = "txtPos2_2t";
+            this.txtPos2_2t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos2_2t.TabIndex = 35;
+            this.txtPos2_2t.Tag = "";
+            this.txtPos2_2t.Text = "999";
+            this.txtPos2_2t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnPos2_3
+            // 
+            this.btnPos2_3.Location = new System.Drawing.Point(342, 56);
+            this.btnPos2_3.Name = "btnPos2_3";
+            this.btnPos2_3.Size = new System.Drawing.Size(31, 23);
+            this.btnPos2_3.TabIndex = 34;
+            this.btnPos2_3.Tag = "2_3";
+            this.btnPos2_3.Text = "P3";
+            this.btnPos2_3.UseVisualStyleBackColor = true;
+            this.btnPos2_3.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos2_3p
+            // 
+            this.txtPos2_3p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos2_3p.Location = new System.Drawing.Point(379, 56);
+            this.txtPos2_3p.Name = "txtPos2_3p";
+            this.txtPos2_3p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos2_3p.TabIndex = 36;
+            this.txtPos2_3p.Tag = "";
+            this.txtPos2_3p.Text = "999";
+            this.txtPos2_3p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos2_3t
+            // 
+            this.txtPos2_3t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos2_3t.Location = new System.Drawing.Point(422, 56);
+            this.txtPos2_3t.Name = "txtPos2_3t";
+            this.txtPos2_3t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos2_3t.TabIndex = 35;
+            this.txtPos2_3t.Tag = "";
+            this.txtPos2_3t.Text = "999";
+            this.txtPos2_3t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnPos3_1
+            // 
+            this.btnPos3_1.Location = new System.Drawing.Point(61, 56);
+            this.btnPos3_1.Name = "btnPos3_1";
+            this.btnPos3_1.Size = new System.Drawing.Size(31, 23);
+            this.btnPos3_1.TabIndex = 34;
+            this.btnPos3_1.Tag = "3_1";
+            this.btnPos3_1.Text = "P1";
+            this.btnPos3_1.UseVisualStyleBackColor = true;
+            this.btnPos3_1.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos3_1p
+            // 
+            this.txtPos3_1p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos3_1p.Location = new System.Drawing.Point(100, 56);
+            this.txtPos3_1p.Name = "txtPos3_1p";
+            this.txtPos3_1p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos3_1p.TabIndex = 36;
+            this.txtPos3_1p.Tag = "";
+            this.txtPos3_1p.Text = "999";
+            this.txtPos3_1p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos3_1t
+            // 
+            this.txtPos3_1t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos3_1t.Location = new System.Drawing.Point(143, 56);
+            this.txtPos3_1t.Name = "txtPos3_1t";
+            this.txtPos3_1t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos3_1t.TabIndex = 35;
+            this.txtPos3_1t.Tag = "";
+            this.txtPos3_1t.Text = "999";
+            this.txtPos3_1t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnPos3_2
+            // 
+            this.btnPos3_2.Location = new System.Drawing.Point(200, 56);
+            this.btnPos3_2.Name = "btnPos3_2";
+            this.btnPos3_2.Size = new System.Drawing.Size(31, 23);
+            this.btnPos3_2.TabIndex = 34;
+            this.btnPos3_2.Tag = "3_2";
+            this.btnPos3_2.Text = "P2";
+            this.btnPos3_2.UseVisualStyleBackColor = true;
+            this.btnPos3_2.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos3_2p
+            // 
+            this.txtPos3_2p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos3_2p.Location = new System.Drawing.Point(239, 56);
+            this.txtPos3_2p.Name = "txtPos3_2p";
+            this.txtPos3_2p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos3_2p.TabIndex = 36;
+            this.txtPos3_2p.Tag = "";
+            this.txtPos3_2p.Text = "999";
+            this.txtPos3_2p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos3_2t
+            // 
+            this.txtPos3_2t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos3_2t.Location = new System.Drawing.Point(282, 56);
+            this.txtPos3_2t.Name = "txtPos3_2t";
+            this.txtPos3_2t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos3_2t.TabIndex = 35;
+            this.txtPos3_2t.Tag = "";
+            this.txtPos3_2t.Text = "999";
+            this.txtPos3_2t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // btnPos3_3
+            // 
+            this.btnPos3_3.Location = new System.Drawing.Point(342, 56);
+            this.btnPos3_3.Name = "btnPos3_3";
+            this.btnPos3_3.Size = new System.Drawing.Size(31, 23);
+            this.btnPos3_3.TabIndex = 34;
+            this.btnPos3_3.Tag = "3_3";
+            this.btnPos3_3.Text = "P3";
+            this.btnPos3_3.UseVisualStyleBackColor = true;
+            this.btnPos3_3.Click += new System.EventHandler(this.btnPos_Click);
+            // 
+            // txtPos3_3p
+            // 
+            this.txtPos3_3p.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos3_3p.Location = new System.Drawing.Point(379, 56);
+            this.txtPos3_3p.Name = "txtPos3_3p";
+            this.txtPos3_3p.Size = new System.Drawing.Size(39, 23);
+            this.txtPos3_3p.TabIndex = 36;
+            this.txtPos3_3p.Tag = "";
+            this.txtPos3_3p.Text = "999";
+            this.txtPos3_3p.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPos3_3t
+            // 
+            this.txtPos3_3t.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPos3_3t.Location = new System.Drawing.Point(422, 56);
+            this.txtPos3_3t.Name = "txtPos3_3t";
+            this.txtPos3_3t.Size = new System.Drawing.Size(39, 23);
+            this.txtPos3_3t.TabIndex = 35;
+            this.txtPos3_3t.Tag = "";
+            this.txtPos3_3t.Text = "999";
+            this.txtPos3_3t.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnPos2_S);
+            this.groupBox2.Controls.Add(this.lblPan02);
+            this.groupBox2.Controls.Add(this.lblTlt02);
+            this.groupBox2.Controls.Add(this.btnPos2_1);
+            this.groupBox2.Controls.Add(this.txtPos2_1p);
+            this.groupBox2.Controls.Add(this.txtPos2_1t);
+            this.groupBox2.Controls.Add(this.btnPos2_2);
+            this.groupBox2.Controls.Add(this.txtPos2_2p);
+            this.groupBox2.Controls.Add(this.txtPos2_2t);
+            this.groupBox2.Controls.Add(this.btnPos2_3);
+            this.groupBox2.Controls.Add(this.txtPos2_3p);
+            this.groupBox2.Controls.Add(this.txtPos2_3t);
             this.groupBox2.Controls.Add(this.btn02Out);
             this.groupBox2.Controls.Add(this.btn02In);
             this.groupBox2.Controls.Add(this.bufCt02);
@@ -339,12 +736,43 @@
             this.groupBox2.Controls.Add(this.btnCam02out);
             this.groupBox2.Controls.Add(this.cam2seconds);
             this.groupBox2.Controls.Add(this.cam2set);
-            this.groupBox2.Location = new System.Drawing.Point(161, 134);
+            this.groupBox2.Location = new System.Drawing.Point(161, 158);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(678, 56);
+            this.groupBox2.Size = new System.Drawing.Size(678, 85);
             this.groupBox2.TabIndex = 27;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Turn Three";
+            // 
+            // btnPos2_S
+            // 
+            this.btnPos2_S.Location = new System.Drawing.Point(24, 56);
+            this.btnPos2_S.Name = "btnPos2_S";
+            this.btnPos2_S.Size = new System.Drawing.Size(31, 23);
+            this.btnPos2_S.TabIndex = 44;
+            this.btnPos2_S.Tag = "2_S";
+            this.btnPos2_S.Text = "Stp";
+            this.btnPos2_S.UseVisualStyleBackColor = true;
+            this.btnPos2_S.Click += new System.EventHandler(this.btnStp_Click);
+            // 
+            // lblPan02
+            // 
+            this.lblPan02.AutoSize = true;
+            this.lblPan02.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPan02.Location = new System.Drawing.Point(487, 56);
+            this.lblPan02.Name = "lblPan02";
+            this.lblPan02.Size = new System.Drawing.Size(37, 20);
+            this.lblPan02.TabIndex = 40;
+            this.lblPan02.Text = "Pan";
+            // 
+            // lblTlt02
+            // 
+            this.lblTlt02.AutoSize = true;
+            this.lblTlt02.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTlt02.Location = new System.Drawing.Point(534, 56);
+            this.lblTlt02.Name = "lblTlt02";
+            this.lblTlt02.Size = new System.Drawing.Size(26, 20);
+            this.lblTlt02.TabIndex = 39;
+            this.lblTlt02.Text = "Tlt";
             // 
             // btn02Out
             // 
@@ -485,6 +913,18 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btnPos3_S);
+            this.groupBox3.Controls.Add(this.lblPan03);
+            this.groupBox3.Controls.Add(this.lblTlt03);
+            this.groupBox3.Controls.Add(this.btnPos3_1);
+            this.groupBox3.Controls.Add(this.txtPos3_1p);
+            this.groupBox3.Controls.Add(this.txtPos3_1t);
+            this.groupBox3.Controls.Add(this.btnPos3_2);
+            this.groupBox3.Controls.Add(this.txtPos3_2p);
+            this.groupBox3.Controls.Add(this.txtPos3_2t);
+            this.groupBox3.Controls.Add(this.btnPos3_3);
+            this.groupBox3.Controls.Add(this.txtPos3_3p);
+            this.groupBox3.Controls.Add(this.txtPos3_3t);
             this.groupBox3.Controls.Add(this.btn03Out);
             this.groupBox3.Controls.Add(this.btn03In);
             this.groupBox3.Controls.Add(this.txt3Id);
@@ -497,12 +937,43 @@
             this.groupBox3.Controls.Add(this.cam3seconds);
             this.groupBox3.Controls.Add(this.cam3set);
             this.groupBox3.Controls.Add(this.bufCt03);
-            this.groupBox3.Location = new System.Drawing.Point(161, 196);
+            this.groupBox3.Location = new System.Drawing.Point(161, 248);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(678, 56);
+            this.groupBox3.Size = new System.Drawing.Size(678, 85);
             this.groupBox3.TabIndex = 28;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Center";
+            // 
+            // btnPos3_S
+            // 
+            this.btnPos3_S.Location = new System.Drawing.Point(24, 56);
+            this.btnPos3_S.Name = "btnPos3_S";
+            this.btnPos3_S.Size = new System.Drawing.Size(31, 23);
+            this.btnPos3_S.TabIndex = 43;
+            this.btnPos3_S.Tag = "3_S";
+            this.btnPos3_S.Text = "Stp";
+            this.btnPos3_S.UseVisualStyleBackColor = true;
+            this.btnPos3_S.Click += new System.EventHandler(this.btnStp_Click);
+            // 
+            // lblPan03
+            // 
+            this.lblPan03.AutoSize = true;
+            this.lblPan03.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPan03.Location = new System.Drawing.Point(487, 56);
+            this.lblPan03.Name = "lblPan03";
+            this.lblPan03.Size = new System.Drawing.Size(37, 20);
+            this.lblPan03.TabIndex = 42;
+            this.lblPan03.Text = "Pan";
+            // 
+            // lblTlt03
+            // 
+            this.lblTlt03.AutoSize = true;
+            this.lblTlt03.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTlt03.Location = new System.Drawing.Point(534, 56);
+            this.lblTlt03.Name = "lblTlt03";
+            this.lblTlt03.Size = new System.Drawing.Size(26, 20);
+            this.lblTlt03.TabIndex = 41;
+            this.lblTlt03.Text = "Tlt";
             // 
             // btn03Out
             // 
@@ -646,7 +1117,7 @@
             this.bufCt.AutoSize = true;
             this.bufCt.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bufCt.ForeColor = System.Drawing.Color.Firebrick;
-            this.bufCt.Location = new System.Drawing.Point(798, 3);
+            this.bufCt.Location = new System.Drawing.Point(847, 4);
             this.bufCt.Name = "bufCt";
             this.bufCt.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.bufCt.Size = new System.Drawing.Size(51, 55);
@@ -657,25 +1128,25 @@
             // txtBoxLaps
             // 
             this.txtBoxLaps.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxLaps.Location = new System.Drawing.Point(628, 3);
+            this.txtBoxLaps.Location = new System.Drawing.Point(677, 4);
             this.txtBoxLaps.MaxLength = 3;
             this.txtBoxLaps.Name = "txtBoxLaps";
             this.txtBoxLaps.Size = new System.Drawing.Size(96, 56);
             this.txtBoxLaps.TabIndex = 30;
             this.txtBoxLaps.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // txtLogPath
+            // txtPath
             // 
-            this.txtLogPath.Location = new System.Drawing.Point(12, 431);
-            this.txtLogPath.Name = "txtLogPath";
-            this.txtLogPath.Size = new System.Drawing.Size(405, 20);
-            this.txtLogPath.TabIndex = 31;
-            this.txtLogPath.Text = "C:\\nginx-rtmp\\www\\";
+            this.txtPath.Location = new System.Drawing.Point(12, 353);
+            this.txtPath.Name = "txtPath";
+            this.txtPath.Size = new System.Drawing.Size(204, 20);
+            this.txtPath.TabIndex = 31;
+            this.txtPath.Text = "C:\\nginx-rtmp\\www\\";
             // 
             // chkManualOverride
             // 
             this.chkManualOverride.AutoSize = true;
-            this.chkManualOverride.Location = new System.Drawing.Point(730, 6);
+            this.chkManualOverride.Location = new System.Drawing.Point(779, 7);
             this.chkManualOverride.Name = "chkManualOverride";
             this.chkManualOverride.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkManualOverride.Size = new System.Drawing.Size(61, 17);
@@ -687,7 +1158,7 @@
             // 
             this.chkUp.AutoSize = true;
             this.chkUp.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.chkUp.Location = new System.Drawing.Point(730, 29);
+            this.chkUp.Location = new System.Drawing.Point(779, 30);
             this.chkUp.Name = "chkUp";
             this.chkUp.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.chkUp.Size = new System.Drawing.Size(40, 17);
@@ -695,86 +1166,199 @@
             this.chkUp.Text = "Up";
             this.chkUp.UseVisualStyleBackColor = true;
             // 
-            // eventTitlesPathFile
+            // txtEventNamesFile
             // 
-            this.eventTitlesPathFile.Location = new System.Drawing.Point(12, 353);
-            this.eventTitlesPathFile.Name = "eventTitlesPathFile";
-            this.eventTitlesPathFile.Size = new System.Drawing.Size(405, 20);
-            this.eventTitlesPathFile.TabIndex = 34;
-            this.eventTitlesPathFile.Text = "C:\\nginx-rtmp\\www\\EventOrderVelodromeCup.txt";
+            this.txtEventNamesFile.Location = new System.Drawing.Point(12, 403);
+            this.txtEventNamesFile.Name = "txtEventNamesFile";
+            this.txtEventNamesFile.Size = new System.Drawing.Size(183, 20);
+            this.txtEventNamesFile.TabIndex = 34;
+            this.txtEventNamesFile.Text = "EventOrderWednesday.txt";
             // 
-            // eventTitle
+            // txtEventName
             // 
-            this.eventTitle.Location = new System.Drawing.Point(12, 379);
-            this.eventTitle.Name = "eventTitle";
-            this.eventTitle.Size = new System.Drawing.Size(559, 20);
-            this.eventTitle.TabIndex = 35;
-            this.eventTitle.Text = "Current Event String";
+            this.txtEventName.Location = new System.Drawing.Point(12, 429);
+            this.txtEventName.Name = "txtEventName";
+            this.txtEventName.Size = new System.Drawing.Size(340, 20);
+            this.txtEventName.TabIndex = 35;
+            this.txtEventName.Text = "Current Event Goes Here";
+            this.txtEventName.TextChanged += new System.EventHandler(this.txtFeedEventName_TextChanged);
             // 
-            // eventTitleLineItem
+            // txtEventLineItem
             // 
-            this.eventTitleLineItem.Location = new System.Drawing.Point(423, 353);
-            this.eventTitleLineItem.Name = "eventTitleLineItem";
-            this.eventTitleLineItem.Size = new System.Drawing.Size(47, 20);
-            this.eventTitleLineItem.TabIndex = 36;
-            this.eventTitleLineItem.Text = "1";
+            this.txtEventLineItem.Location = new System.Drawing.Point(214, 404);
+            this.txtEventLineItem.Name = "txtEventLineItem";
+            this.txtEventLineItem.Size = new System.Drawing.Size(29, 20);
+            this.txtEventLineItem.TabIndex = 36;
+            this.txtEventLineItem.Text = "1";
+            this.txtEventLineItem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // eventTitleLinePrev
+            // btnEventPrevItem
             // 
-            this.eventTitleLinePrev.Location = new System.Drawing.Point(480, 350);
-            this.eventTitleLinePrev.Name = "eventTitleLinePrev";
-            this.eventTitleLinePrev.Size = new System.Drawing.Size(42, 23);
-            this.eventTitleLinePrev.TabIndex = 37;
-            this.eventTitleLinePrev.Tag = "";
-            this.eventTitleLinePrev.Text = "Prev";
-            this.eventTitleLinePrev.UseVisualStyleBackColor = true;
-            this.eventTitleLinePrev.Click += new System.EventHandler(this.eventTitleLinePrev_Click);
+            this.btnEventPrevItem.Location = new System.Drawing.Point(266, 401);
+            this.btnEventPrevItem.Name = "btnEventPrevItem";
+            this.btnEventPrevItem.Size = new System.Drawing.Size(40, 23);
+            this.btnEventPrevItem.TabIndex = 37;
+            this.btnEventPrevItem.Tag = "";
+            this.btnEventPrevItem.Text = "Prev";
+            this.btnEventPrevItem.UseVisualStyleBackColor = true;
+            this.btnEventPrevItem.Click += new System.EventHandler(this.btnEventItemPrev_Click);
             // 
-            // eventTitleLineNext
+            // btnEventNextItem
             // 
-            this.eventTitleLineNext.Location = new System.Drawing.Point(528, 350);
-            this.eventTitleLineNext.Name = "eventTitleLineNext";
-            this.eventTitleLineNext.Size = new System.Drawing.Size(43, 23);
-            this.eventTitleLineNext.TabIndex = 38;
-            this.eventTitleLineNext.Tag = "";
-            this.eventTitleLineNext.Text = "Next";
-            this.eventTitleLineNext.UseVisualStyleBackColor = true;
-            this.eventTitleLineNext.Click += new System.EventHandler(this.eventTitleLineNext_Click);
+            this.btnEventNextItem.Location = new System.Drawing.Point(312, 401);
+            this.btnEventNextItem.Name = "btnEventNextItem";
+            this.btnEventNextItem.Size = new System.Drawing.Size(40, 23);
+            this.btnEventNextItem.TabIndex = 38;
+            this.btnEventNextItem.Tag = "";
+            this.btnEventNextItem.Text = "Next";
+            this.btnEventNextItem.UseVisualStyleBackColor = true;
+            this.btnEventNextItem.Click += new System.EventHandler(this.btnEventItemNext_Click);
             // 
-            // eventTitleLineSave
+            // btnEventNameSave
             // 
-            this.eventTitleLineSave.Location = new System.Drawing.Point(577, 379);
-            this.eventTitleLineSave.Name = "eventTitleLineSave";
-            this.eventTitleLineSave.Size = new System.Drawing.Size(53, 23);
-            this.eventTitleLineSave.TabIndex = 39;
-            this.eventTitleLineSave.Tag = "";
-            this.eventTitleLineSave.Text = "Save";
-            this.eventTitleLineSave.UseVisualStyleBackColor = true;
-            this.eventTitleLineSave.Click += new System.EventHandler(this.eventTitleLineSave_Click);
+            this.btnEventNameSave.Location = new System.Drawing.Point(411, 429);
+            this.btnEventNameSave.Name = "btnEventNameSave";
+            this.btnEventNameSave.Size = new System.Drawing.Size(40, 23);
+            this.btnEventNameSave.TabIndex = 39;
+            this.btnEventNameSave.Tag = "";
+            this.btnEventNameSave.Text = "Save";
+            this.btnEventNameSave.UseVisualStyleBackColor = true;
+            this.btnEventNameSave.Click += new System.EventHandler(this.btnEventItemSave_Click);
             // 
-            // eventTitlePathFile
+            // txtEventNameFile
             // 
-            this.eventTitlePathFile.Location = new System.Drawing.Point(12, 405);
-            this.eventTitlePathFile.Name = "eventTitlePathFile";
-            this.eventTitlePathFile.Size = new System.Drawing.Size(405, 20);
-            this.eventTitlePathFile.TabIndex = 40;
-            this.eventTitlePathFile.Text = "C:\\nginx-rtmp\\www\\CurrentEvent.txt";
+            this.txtEventNameFile.Location = new System.Drawing.Point(131, 455);
+            this.txtEventNameFile.Name = "txtEventNameFile";
+            this.txtEventNameFile.Size = new System.Drawing.Size(112, 20);
+            this.txtEventNameFile.TabIndex = 40;
+            this.txtEventNameFile.Text = "FeedEventName.txt";
+            // 
+            // btnWebSocket
+            // 
+            this.btnWebSocket.Location = new System.Drawing.Point(318, 480);
+            this.btnWebSocket.Name = "btnWebSocket";
+            this.btnWebSocket.Size = new System.Drawing.Size(83, 23);
+            this.btnWebSocket.TabIndex = 41;
+            this.btnWebSocket.Tag = "1";
+            this.btnWebSocket.Text = "WebSocket";
+            this.btnWebSocket.UseVisualStyleBackColor = true;
+            this.btnWebSocket.Click += new System.EventHandler(this.btnWebSocket_Click);
+            // 
+            // txtWebScocketIp
+            // 
+            this.txtWebScocketIp.Location = new System.Drawing.Point(12, 483);
+            this.txtWebScocketIp.Name = "txtWebScocketIp";
+            this.txtWebScocketIp.Size = new System.Drawing.Size(265, 20);
+            this.txtWebScocketIp.TabIndex = 42;
+            this.txtWebScocketIp.Text = "ws://127.0.0.1:4444";
+            // 
+            // txtLapsToGoFile
+            // 
+            this.txtLapsToGoFile.Location = new System.Drawing.Point(249, 455);
+            this.txtLapsToGoFile.Name = "txtLapsToGoFile";
+            this.txtLapsToGoFile.Size = new System.Drawing.Size(103, 20);
+            this.txtLapsToGoFile.TabIndex = 43;
+            this.txtLapsToGoFile.Text = "FeedLapsToGo.txt";
+            // 
+            // txtLogFile
+            // 
+            this.txtLogFile.Location = new System.Drawing.Point(230, 353);
+            this.txtLogFile.Name = "txtLogFile";
+            this.txtLogFile.Size = new System.Drawing.Size(122, 20);
+            this.txtLogFile.TabIndex = 44;
+            this.txtLogFile.Text = "FeedLapsToGo_{0}.log";
+            // 
+            // txtTitleSponsorFile
+            // 
+            this.txtTitleSponsorFile.Location = new System.Drawing.Point(13, 455);
+            this.txtTitleSponsorFile.Name = "txtTitleSponsorFile";
+            this.txtTitleSponsorFile.Size = new System.Drawing.Size(112, 20);
+            this.txtTitleSponsorFile.TabIndex = 45;
+            this.txtTitleSponsorFile.Text = "FeedTitleName.txt";
+            // 
+            // txtTitleSponsor
+            // 
+            this.txtTitleSponsor.Location = new System.Drawing.Point(13, 379);
+            this.txtTitleSponsor.Name = "txtTitleSponsor";
+            this.txtTitleSponsor.Size = new System.Drawing.Size(340, 20);
+            this.txtTitleSponsor.TabIndex = 46;
+            this.txtTitleSponsor.Text = "Title Sponsor Goes Here";
+            // 
+            // btnTitleSponsorSave
+            // 
+            this.btnTitleSponsorSave.Location = new System.Drawing.Point(361, 379);
+            this.btnTitleSponsorSave.Name = "btnTitleSponsorSave";
+            this.btnTitleSponsorSave.Size = new System.Drawing.Size(40, 23);
+            this.btnTitleSponsorSave.TabIndex = 47;
+            this.btnTitleSponsorSave.Tag = "";
+            this.btnTitleSponsorSave.Text = "Save";
+            this.btnTitleSponsorSave.UseVisualStyleBackColor = true;
+            this.btnTitleSponsorSave.Click += new System.EventHandler(this.btnTitleSponsorSave_Click);
+            // 
+            // chkUpdateLap
+            // 
+            this.chkUpdateLap.AutoSize = true;
+            this.chkUpdateLap.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkUpdateLap.Checked = true;
+            this.chkUpdateLap.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkUpdateLap.Location = new System.Drawing.Point(361, 431);
+            this.chkUpdateLap.Name = "chkUpdateLap";
+            this.chkUpdateLap.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkUpdateLap.Size = new System.Drawing.Size(44, 17);
+            this.chkUpdateLap.TabIndex = 48;
+            this.chkUpdateLap.Text = "Lap";
+            this.chkUpdateLap.UseVisualStyleBackColor = true;
+            // 
+            // chkShowResults
+            // 
+            this.chkShowResults.AutoSize = true;
+            this.chkShowResults.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.chkShowResults.Checked = true;
+            this.chkShowResults.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkShowResults.Location = new System.Drawing.Point(361, 407);
+            this.chkShowResults.Name = "chkShowResults";
+            this.chkShowResults.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkShowResults.Size = new System.Drawing.Size(61, 17);
+            this.chkShowResults.TabIndex = 49;
+            this.chkShowResults.Text = "Results";
+            this.chkShowResults.UseVisualStyleBackColor = true;
+            // 
+            // txtCat
+            // 
+            this.txtCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCat.Location = new System.Drawing.Point(503, 3);
+            this.txtCat.MaxLength = 3;
+            this.txtCat.Name = "txtCat";
+            this.txtCat.Size = new System.Drawing.Size(57, 56);
+            this.txtCat.TabIndex = 50;
+            this.txtCat.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCat.TextChanged += new System.EventHandler(this.txtCat_TextChanged);
             // 
             // ControllerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 453);
-            this.Controls.Add(this.eventTitlePathFile);
-            this.Controls.Add(this.eventTitleLineSave);
-            this.Controls.Add(this.eventTitleLinePrev);
-            this.Controls.Add(this.eventTitleLineNext);
-            this.Controls.Add(this.eventTitleLineItem);
-            this.Controls.Add(this.eventTitle);
-            this.Controls.Add(this.eventTitlesPathFile);
+            this.ClientSize = new System.Drawing.Size(924, 516);
+            this.Controls.Add(this.txtCat);
+            this.Controls.Add(this.chkShowResults);
+            this.Controls.Add(this.chkUpdateLap);
+            this.Controls.Add(this.btnTitleSponsorSave);
+            this.Controls.Add(this.txtTitleSponsor);
+            this.Controls.Add(this.txtTitleSponsorFile);
+            this.Controls.Add(this.txtLogFile);
+            this.Controls.Add(this.txtLapsToGoFile);
+            this.Controls.Add(this.txtWebScocketIp);
+            this.Controls.Add(this.btnWebSocket);
+            this.Controls.Add(this.txtEventNameFile);
+            this.Controls.Add(this.btnEventNameSave);
+            this.Controls.Add(this.btnEventPrevItem);
+            this.Controls.Add(this.btnEventNextItem);
+            this.Controls.Add(this.txtEventLineItem);
+            this.Controls.Add(this.txtEventName);
+            this.Controls.Add(this.txtEventNamesFile);
             this.Controls.Add(this.chkUp);
             this.Controls.Add(this.chkManualOverride);
-            this.Controls.Add(this.txtLogPath);
+            this.Controls.Add(this.txtPath);
             this.Controls.Add(this.txtBoxLaps);
             this.Controls.Add(this.bufCt);
             this.Controls.Add(this.groupBox3);
@@ -848,7 +1432,7 @@
         private System.Windows.Forms.Label bufCt01;
         private System.Windows.Forms.Label bufCt02;
         private System.Windows.Forms.Label bufCt03;
-        public System.Windows.Forms.TextBox txtLogPath;
+        public System.Windows.Forms.TextBox txtPath;
         private System.Windows.Forms.CheckBox chkManualOverride;
         private System.Windows.Forms.CheckBox chkUp;
         public System.Windows.Forms.TextBox btn01Out;
@@ -857,13 +1441,67 @@
         public System.Windows.Forms.TextBox btn02In;
         public System.Windows.Forms.TextBox btn03Out;
         public System.Windows.Forms.TextBox btn03In;
-        public System.Windows.Forms.TextBox eventTitlesPathFile;
-        public System.Windows.Forms.TextBox eventTitle;
-        public System.Windows.Forms.TextBox eventTitleLineItem;
-        public System.Windows.Forms.Button eventTitleLinePrev;
-        public System.Windows.Forms.Button eventTitleLineNext;
-        public System.Windows.Forms.Button eventTitleLineSave;
-        public System.Windows.Forms.TextBox eventTitlePathFile;
+        public System.Windows.Forms.TextBox txtEventNamesFile;
+        public System.Windows.Forms.TextBox txtEventName;
+        public System.Windows.Forms.TextBox txtEventLineItem;
+        public System.Windows.Forms.Button btnEventPrevItem;
+        public System.Windows.Forms.Button btnEventNextItem;
+        public System.Windows.Forms.Button btnEventNameSave;
+        public System.Windows.Forms.TextBox txtEventNameFile;
+        public System.Windows.Forms.Button btnPos1_1;
+        public System.Windows.Forms.TextBox txtPos1_1p;
+        public System.Windows.Forms.TextBox txtPos1_1t;
+
+        public System.Windows.Forms.Button btnPos1_2;
+        public System.Windows.Forms.TextBox txtPos1_2p;
+        public System.Windows.Forms.TextBox txtPos1_2t;
+
+        public System.Windows.Forms.Button btnPos1_3;
+        public System.Windows.Forms.TextBox txtPos1_3p;
+        public System.Windows.Forms.TextBox txtPos1_3t;
+
+        public System.Windows.Forms.Button btnPos2_1;
+        public System.Windows.Forms.TextBox txtPos2_1p;
+        public System.Windows.Forms.TextBox txtPos2_1t;
+
+        public System.Windows.Forms.Button btnPos2_2;
+        public System.Windows.Forms.TextBox txtPos2_2p;
+        public System.Windows.Forms.TextBox txtPos2_2t;
+
+        public System.Windows.Forms.Button btnPos2_3;
+        public System.Windows.Forms.TextBox txtPos2_3p;
+        public System.Windows.Forms.TextBox txtPos2_3t;
+
+        public System.Windows.Forms.Button btnPos3_1;
+        public System.Windows.Forms.TextBox txtPos3_1p;
+        public System.Windows.Forms.TextBox txtPos3_1t;
+
+        public System.Windows.Forms.Button btnPos3_2;
+        public System.Windows.Forms.TextBox txtPos3_2p;
+        public System.Windows.Forms.TextBox txtPos3_2t;
+
+        public System.Windows.Forms.Button btnPos3_3;
+        public System.Windows.Forms.TextBox txtPos3_3p;
+        public System.Windows.Forms.TextBox txtPos3_3t;
+        private System.Windows.Forms.Label lblPan01;
+        private System.Windows.Forms.Label lblTlt01;
+        private System.Windows.Forms.Label lblPan02;
+        private System.Windows.Forms.Label lblTlt02;
+        private System.Windows.Forms.Label lblPan03;
+        private System.Windows.Forms.Label lblTlt03;
+        public System.Windows.Forms.Button btnPos1_S;
+        public System.Windows.Forms.Button btnPos2_S;
+        public System.Windows.Forms.Button btnPos3_S;
+        private System.Windows.Forms.Button btnWebSocket;
+        public System.Windows.Forms.TextBox txtWebScocketIp;
+        public System.Windows.Forms.TextBox txtLapsToGoFile;
+        public System.Windows.Forms.TextBox txtLogFile;
+        public System.Windows.Forms.TextBox txtTitleSponsorFile;
+        public System.Windows.Forms.TextBox txtTitleSponsor;
+        public System.Windows.Forms.Button btnTitleSponsorSave;
+        private System.Windows.Forms.CheckBox chkUpdateLap;
+        private System.Windows.Forms.CheckBox chkShowResults;
+        private System.Windows.Forms.TextBox txtCat;
     }
 }
 

@@ -51,6 +51,11 @@ namespace ArduinoController
             Exit();
             Setup(_controllerForm);
         }
+
+        public bool IsConnected()
+        {
+            return _serialTransport.IsConnected();
+        }
         public void Setup(ControllerForm controllerForm)
         {
             // storing the controller form for later reference
@@ -138,7 +143,7 @@ namespace ArduinoController
         {
             var output = arguments.ReadStringArg();
             if (string.IsNullOrWhiteSpace(output)) return;
-            _controllerForm.SetCamMsgText(output);
+           // _controllerForm.SetCamMsgText(output);
 
             const string s = @" ACK ";
             Console.WriteLine(s);
